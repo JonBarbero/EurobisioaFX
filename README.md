@@ -1,1 +1,1 @@
-# Eurobisioa ariketa, herrialde bakoitzak bozkatu ahal duena
+# Eurobisioa ariketa, herrialde bakoitzak bozkatu ahal duena.
