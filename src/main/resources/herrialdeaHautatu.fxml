@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="421.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ehu.isad.controller.ui.HerrialdeaHautatuKud">
+   <children>
+      <ComboBox fx:id="comboHerrialdeak" layoutX="236.0" layoutY="232.0" prefHeight="38.0" prefWidth="192.0" />
+      <ImageView fx:id="imgIrudia" fitHeight="109.0" fitWidth="391.0" layoutX="160.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hasiera.png" />
+         </image></ImageView>
+      <Label layoutX="159.0" layoutY="184.0" text="Aukeratu zein herrialdeak egin nahi duen bozkaketa:" underline="true" />
+      <Button fx:id="btnBotoia" layoutX="299.0" layoutY="310.0" mnemonicParsing="false" onAction="#onClick" prefHeight="26.0" prefWidth="65.0" text="OK" />
+   </children>
+</AnchorPane>
